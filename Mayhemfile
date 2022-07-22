@@ -2,5 +2,4 @@ project: minlzma
 target: minlzdec
 
 cmds:
-  - cmd: /minlzma/build/minlzdec/minlzdec /test.xz /dev/null
-    filepath: /test.xz 
+  - cmd: /minlzma/build/minlzdec/minlzdec @@/dev/null
