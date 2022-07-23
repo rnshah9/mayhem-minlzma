@@ -2,4 +2,4 @@ project: minlzma
 target: minlzdec
 
 cmds:
-  - cmd: /minlzma/build/minlzdec/minlzdec @@/dev/null
+  - cmd: /minlzma/build/minlzdec/minlzdec @@ /dev/null
